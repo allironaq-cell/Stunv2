@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "shieldstun",
+  "version": "${version}",
+  "name": "ShieldStun Combo",
+  "description": "Client-side sword -> axe combo macro that breaks shields.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.shieldstun.ShieldStunClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
